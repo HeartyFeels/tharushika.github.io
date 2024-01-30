@@ -1,0 +1,160 @@
+
+body{
+    background-color: 	#F8EDEB;
+    margin: 0px;
+    
+}
+
+nav{
+    background-color: 	#FCD5CE;
+    box-shadow: 5px 5px 10px 	#f1f1f1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+a{
+    color: #FF5D73;
+    text-shadow:2px 2px #FEC5BB;
+    font-family: 'Dosis', sans-serif;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+
+a:hover{
+    color: white;
+    animation:alternate ;
+}
+
+footer{
+    background-color: #E8E8E4;
+    display: flex;
+    justify-content: center;
+}
+
+#computer {
+    object-fit: cover;
+	position: absolute;
+    top: 7rem;
+    right: 30rem;
+}
+
+#bunny{
+    object-fit: cover;
+	position: absolute;
+    top: 7rem;
+    left: 30rem;
+    border: #FF5D73;
+    border-radius:20px;
+}
+
+.intro {
+    background-image:url("https://64.media.tumblr.com/2128721b96dca04c490cf89694384371/tumblr_ndlsv3JcpR1smn4pqo1_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E8E8E4;
+    padding:3%;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#personal{
+    font-size: larger;
+}
+
+.details{
+    color: black;
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: medium;
+}
+
+.details{
+    padding: 4%;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.card {
+    border-radius: 7px;
+    background-color: #FCD5CE;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    outline: #FF5D73;
+    outline-style: solid;
+}
+
+#langList{
+    display: flex;
+	gap: 20px;
+	font-size: larger;
+	font-weight: 500;
+}
+
+#skillList{
+    display: grid;
+    padding: 0;
+	gap: 1px;
+	row-gap: 0px;
+	align-content: start;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+.card>img:first-child {
+    border-radius: 7px 7px 0 0;
+}
+
+
+hr{
+    border-style: dotted;
+    border-bottom: 0;
+    color: #FEC5BB;
+}
+
+.contact-details{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.container{
+    display: block;
+    text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	margin-top: 10px;
+    border-radius: 7px;
+    background-color: #FCD5CE;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    outline: #FF5D73;
+    outline-style: solid;
+}
+
+#form{
+    margin: 100px auto;
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+}
+
+.one-col{
+    display: grid;
+	grid-template-columns: auto;
+    justify-items: center;
+}
